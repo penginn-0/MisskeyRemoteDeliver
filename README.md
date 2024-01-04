@@ -10,11 +10,11 @@ config.iniをいい感じに変えます
   - DelayはLocalで指定したサーバーへのリクエスト間隔(ミリ秒)
 - Remote
   - Hostはリモートのドメイン
-  - UserCountは全件取得するユーザー数
+  - UserCountは全件取得するユーザー数(ドメインが同じなら増やせます)
   - Remote_User_nのIdはリモートのIDをコピペ
   - UserCountの分Remote_User_nを増やせます
     - [Remote_User_5] id = ""
-  - Local
+- Local
     - Host、一括照会してローカルに表示させたいドメイン
     - APIトークン(権限全無効でも使えます)
 
